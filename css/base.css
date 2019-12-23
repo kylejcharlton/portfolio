@@ -1,0 +1,90 @@
+/* * {
+    border: 1px solid red;
+}
+*/
+body,
+html {
+    margin: 0;
+    border: none;
+}
+
+h1,
+h2,
+h3 {
+    text-align: center;
+}
+
+header {
+    height: 100vh;
+    background-image: url(https://i.redd.it/nzy4sgk6xz341.jpg);
+    background-size: cover;
+    background-position: 50%;
+    background-attachment: fixed;
+}
+
+#banner {
+    box-sizing: border-box;
+    position: absolute;
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-shadow: -1px 1px 0 #000,
+        1px 1px 0 #000,
+        1px -1px 0 #000,
+        -1px -1px 0 #000;
+}
+
+#nav-header,
+.nav-tab {
+    margin: auto;
+    display: block;
+    max-width: 90%;
+}
+
+nav {
+    width: 100%;
+    margin: 0;
+    text-align: right;
+    background-color: cornflowerblue;
+}
+
+.panel {
+    box-sizing: border-box;
+    width: 50%;
+}
+
+.panel p {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.nav-tab {
+    text-align: center;
+}
+
+#nav-header a {
+    margin: 5px;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+}
+
+.nav-tab a {
+    margin: 5px;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    color: grey;
+}
+
+.hidden {
+    display: none;
+}
+
+footer {
+    height: 10px;
+    background-color: cornflowerblue;
+}
