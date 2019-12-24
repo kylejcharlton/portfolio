@@ -22,6 +22,16 @@ header {
     background-attachment: fixed;
 }
 
+#content {
+    width: 90%;
+    box-sizing: border-box;
+    position: absolute;
+    margin: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
 #banner {
     box-sizing: border-box;
     position: absolute;
@@ -82,9 +92,4 @@ nav {
 
 .hidden {
     display: none;
-}
-
-footer {
-    height: 10px;
-    background-color: cornflowerblue;
 }
