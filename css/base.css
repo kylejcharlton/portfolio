@@ -1,6 +1,16 @@
 /* * {
     border: 1px solid red;
 }
+
+
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
 */
 
 body,
@@ -13,6 +23,7 @@ h1,
 h2,
 h3 {
     text-align: center;
+    width: 100%;
 }
 
 nav {
@@ -34,6 +45,7 @@ header {
     background-attachment: fixed;
 }
 
+/*
 #content {
     width: 70%;
     box-sizing: border-box;
@@ -42,6 +54,7 @@ header {
     left: 50%;
     transform: translateX(-50%);
 }
+*/
 
 #banner {
     box-sizing: border-box;
@@ -93,16 +106,16 @@ header {
 }
 
 .panel {
-    box-sizing: border-box;
     width: 100%;
 }
 
 .panel p {
-    width: 90%;
+    max-width: 90%;
     margin: auto;
     margin-bottom: 10px;
 }
 
+/*
 .left,
 .right {
     display: inline-block;
@@ -110,6 +123,7 @@ header {
     vertical-align: top;
     box-sizing: border-box;
 }
+*/
 
 .hidden {
     display: none;
