@@ -8,14 +8,7 @@ exclude: [vendor/ruby]
 
 # Personalization
 github_username: kylejcharlton
-blog_url:
 email: kyle@kcharlton.dev
-keybase_username:
-twitter_username:
-reddit_username:
 
 # absolute or relative
 profile_picture: assets/images/pp.jpg
-
-# Google Analytics ID
-google_analytics: 
