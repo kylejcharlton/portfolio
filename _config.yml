@@ -1,18 +1,18 @@
-title: Abhishek Nagekar
-description: Web & Security Engineer
-site_title: '@abhn - Abhishek Nagekar'
+title: Kyle Charlton
+description: Software Developer
+site_title: 'Kyle Charlton'
 
 # Build settings
 markdown: kramdown
 exclude: [vendor/ruby]
 
 # Personalization
-github_username: abhn
-blog_url: https://www.nagekar.com
-email: abhishek@nagekar.com
-keybase_username: abhn
-twitter_username: abhn_
-reddit_username: abhn
+github_username: kylejcharlton
+blog_url:
+email: kyle@kcharlton.dev
+keybase_username:
+twitter_username:
+reddit_username:
 
 # absolute or relative
 profile_picture: assets/images/pp.jpg
